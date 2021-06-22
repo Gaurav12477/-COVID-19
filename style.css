@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(#c471ed,#12c2e9);
+    
+}
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    
+    border-radius: 20px;
+    background-color: linear-gradient(130deg, (#c471ed,#12c2e9));
+    border-radius: 5px;
+    
+    
+    border-radius: 2rem;  
+    display:flexbox;
+    justify-content: Center;
+    align-items: center;
+    margin:0px 200px;
+
+    
+}
+.data{
+    padding: 1em;
+}
+h1 {
+    font-size: 2rem;
+    font-family: consolas;
+}
+.card.no{
+    border: solid 1px black;
+    border-radius: 2px;
+}
+img {
+    width: 60px;
+    overflow: hidden;
+  }
+.card-no{
+    border: black solid 1px;
+    border-radius: 7px;
+}
+footer {
+    margin: 5px;
+    text-size-adjust: 150px;
+    text-align: center;
+    margin: 15px;
+    background-color:violet ;
+    padding: 5px;
+    border-radius: 10px;
+    border:solid rgb(253, 253, 253);
+  }
+  footer a {
+    color: blanchedalmond;
+    padding: 20px;
+    text-size-adjust: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+  }
+.heading{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    color: blanchedalmond;
+    background-color:violet ;
+    border-radius: 10px;
+    border:solid;
+}
+.card-text{
+    padding: 0%;
+    margin: 0%;
+}
+#animate{
+    color: #e20000;
+     animation: blinking 0.5s  infinite;
+}
+@keyframes blinking {
+    from { opacity: 1.0; }
+    to { opacity: 0.0; }
+      
+}
+.live{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.head{
+    position: sticky;
+}
